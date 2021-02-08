@@ -8,7 +8,6 @@ redirected to Azure AD B2C to login/signup
 
 First you'll need:
 
-1. A Vonage API Account. [Click here](https://dashboard.nexmo.com/sign-up) to create one.
 1. A Vonage Video API Account. [Click here](https://tokbox.com/account/user/signup/) to create a free account.
 1. An Azure Account. [Click here](https://azure.microsoft.com/en-us/free/) to create one.
 1. An Azure AD B2C Tenant [Click here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant) to learn how to set it up.

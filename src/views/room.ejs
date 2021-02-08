@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <title>
+    Room: <%=roomId %>
+  </title>
+  <script type="text/javascript">
+    const apiKey = '<%=videoApiKey %>';
+    const sessionId = '<%=sessionId %>';
+    const token = '<%=token %>';
+    const roomId = '<%=roomId %>';
+    const username = '<%=username%>'
+  </script>
+  <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+  <script src="/js/opentok.js"></script>
+  <style>
+    #subscribers {
+      display: flex;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="publisher"></div>
+  <div id="subscribers"></div>
+</body>
+
+</html>
